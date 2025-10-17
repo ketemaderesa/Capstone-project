@@ -2,4 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: your custom CSS can go below */
+/* Custom utility for line clamping */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

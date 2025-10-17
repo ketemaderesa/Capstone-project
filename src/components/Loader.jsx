@@ -1,9 +1,9 @@
-import React from "react";
-
-const Loader = () => (
-  <div className="flex justify-center mt-10">
-    <div className="loader border-4 border-blue-500 border-dashed rounded-full w-12 h-12 animate-spin"></div>
-  </div>
-);
+const Loader = () => {
+  return (
+    <div className="flex justify-center items-center py-12">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-500"></div>
+    </div>
+  );
+};
 
 export default Loader;
